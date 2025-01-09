@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 38px;
+}
+nav > ul {
+    list-style: none;
+}
+.nav-item{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.nav-items{
+font-size: 20px;
+font-weight: 600;
+border: 1px solid gray;
+padding: 5px ;
+height: 23px;
+border-radius: 8px;
+color: rgb(13, 19, 33);
+}
+
+.banner-main{
+    background-image: url("/assets/Hero-bg.png");
+    margin-top: 30px;
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+}
+.banner-img{
+    margin-top: 26px;
+}
+.banner-h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-p{
+    margin-top: 24px;
+    opacity: 0.7;
+
+}
+.bannet-btn{
+    margin-top: 73px;
+    height: 65px;
+    width: 244px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    border-radius: 8px;
+    border: none;
+}
+/* Why Web Development strt */
+.web-main{
+    margin-top: 74px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-left: 148px;
+    margin-right: 152px;
+    padding:80px 97px 80px 97px;
+}
+.web-main-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.web-subtitle{
+    font-weight: 800;
+    font-size: 32px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+
+}
+#web{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* flex strt */
+.web-container{
+    padding: 48px;
+    display: flex;
+    padding: 48px;
+    background-color: white;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.row-1-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 16px;
+}
+.row-1-title-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.row-btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(13, 19, 33);
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+    margin-top: 44px;
+}
